@@ -39,20 +39,7 @@
         }
       },
       "type": "dynamiczone",
-      "components": [
-        "title.blocks"
-      ]
-    },
-    "seo": {
-      "displayName": "seo",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "meta-data.seo"
+      "components": []
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ],
+      "default": "primary"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_related_articles",
+  "info": {
+    "displayName": "relatedArticles",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
